@@ -51,9 +51,11 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(52, 687);
+            this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAgregar.Location = new System.Drawing.Point(48, 706);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(113, 53);
+            this.btnAgregar.Size = new System.Drawing.Size(115, 52);
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -61,19 +63,23 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(232, 109);
+            this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNombre.Location = new System.Drawing.Point(232, 110);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 26);
+            this.txtNombre.Size = new System.Drawing.Size(101, 26);
             this.txtNombre.TabIndex = 1;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lvElementos
             // 
             this.lvElementos.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
+            this.lvElementos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lvElementos.HideSelection = false;
-            this.lvElementos.Location = new System.Drawing.Point(52, 510);
+            this.lvElementos.Location = new System.Drawing.Point(48, 501);
             this.lvElementos.Name = "lvElementos";
-            this.lvElementos.Size = new System.Drawing.Size(402, 171);
+            this.lvElementos.Size = new System.Drawing.Size(405, 198);
             this.lvElementos.TabIndex = 2;
             this.lvElementos.UseCompatibleStateImageBehavior = false;
             this.lvElementos.View = System.Windows.Forms.View.SmallIcon;
@@ -81,8 +87,10 @@
             // 
             // lblNombre
             // 
+            this.lblNombre.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(130, 115);
+            this.lblNombre.Location = new System.Drawing.Point(130, 116);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(73, 20);
             this.lblNombre.TabIndex = 3;
@@ -91,6 +99,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(48, 165);
             this.label1.Name = "label1";
@@ -101,15 +111,19 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(232, 159);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(144, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(147, 26);
             this.dateTimePicker1.TabIndex = 5;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // chbEjemplo
             // 
+            this.chbEjemplo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.chbEjemplo.AutoSize = true;
             this.chbEjemplo.Location = new System.Drawing.Point(168, 218);
             this.chbEjemplo.Name = "chbEjemplo";
@@ -122,7 +136,7 @@
             // rdbHombre
             // 
             this.rdbHombre.AutoSize = true;
-            this.rdbHombre.Location = new System.Drawing.Point(11, 43);
+            this.rdbHombre.Location = new System.Drawing.Point(10, 44);
             this.rdbHombre.Name = "rdbHombre";
             this.rdbHombre.Size = new System.Drawing.Size(91, 24);
             this.rdbHombre.TabIndex = 7;
@@ -133,7 +147,7 @@
             // rdbMujer
             // 
             this.rdbMujer.AutoSize = true;
-            this.rdbMujer.Location = new System.Drawing.Point(161, 42);
+            this.rdbMujer.Location = new System.Drawing.Point(160, 42);
             this.rdbMujer.Name = "rdbMujer";
             this.rdbMujer.Size = new System.Drawing.Size(73, 24);
             this.rdbMujer.TabIndex = 8;
@@ -145,7 +159,7 @@
             // 
             this.rdbNull.AutoSize = true;
             this.rdbNull.Checked = true;
-            this.rdbNull.Location = new System.Drawing.Point(320, 43);
+            this.rdbNull.Location = new System.Drawing.Point(320, 44);
             this.rdbNull.Name = "rdbNull";
             this.rdbNull.Size = new System.Drawing.Size(60, 24);
             this.rdbNull.TabIndex = 9;
@@ -155,12 +169,14 @@
             // 
             // grbGenero
             // 
+            this.grbGenero.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grbGenero.Controls.Add(this.rdbHombre);
             this.grbGenero.Controls.Add(this.rdbNull);
             this.grbGenero.Controls.Add(this.rdbMujer);
-            this.grbGenero.Location = new System.Drawing.Point(51, 269);
+            this.grbGenero.Location = new System.Drawing.Point(51, 268);
             this.grbGenero.Name = "grbGenero";
-            this.grbGenero.Size = new System.Drawing.Size(402, 98);
+            this.grbGenero.Size = new System.Drawing.Size(403, 98);
             this.grbGenero.TabIndex = 10;
             this.grbGenero.TabStop = false;
             this.grbGenero.Text = "Genero:";
@@ -168,6 +184,8 @@
             // 
             // cbEstudios
             // 
+            this.cbEstudios.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbEstudios.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEstudios.FormattingEnabled = true;
             this.cbEstudios.Items.AddRange(new object[] {
@@ -178,15 +196,17 @@
             "Matriculado"});
             this.cbEstudios.Location = new System.Drawing.Point(212, 398);
             this.cbEstudios.Name = "cbEstudios";
-            this.cbEstudios.Size = new System.Drawing.Size(163, 28);
+            this.cbEstudios.Size = new System.Drawing.Size(165, 28);
             this.cbEstudios.TabIndex = 11;
             this.cbEstudios.Text = "Desplegar";
             this.cbEstudios.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(103, 402);
+            this.label2.Location = new System.Drawing.Point(104, 402);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 12;
@@ -195,16 +215,20 @@
             // 
             // numExp
             // 
-            this.numExp.Location = new System.Drawing.Point(212, 451);
+            this.numExp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.numExp.Location = new System.Drawing.Point(212, 452);
             this.numExp.Name = "numExp";
-            this.numExp.Size = new System.Drawing.Size(136, 26);
+            this.numExp.Size = new System.Drawing.Size(138, 26);
             this.numExp.TabIndex = 13;
             this.numExp.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 451);
+            this.label3.Location = new System.Drawing.Point(60, 452);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(136, 20);
             this.label3.TabIndex = 14;
@@ -213,9 +237,11 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(50, 23);
+            this.label4.Location = new System.Drawing.Point(50, 22);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(267, 37);
             this.label4.TabIndex = 15;
@@ -223,9 +249,11 @@
             // 
             // btnVerPerfil
             // 
-            this.btnVerPerfil.Location = new System.Drawing.Point(371, 716);
+            this.btnVerPerfil.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVerPerfil.Location = new System.Drawing.Point(368, 735);
             this.btnVerPerfil.Name = "btnVerPerfil";
-            this.btnVerPerfil.Size = new System.Drawing.Size(101, 51);
+            this.btnVerPerfil.Size = new System.Drawing.Size(103, 51);
             this.btnVerPerfil.TabIndex = 16;
             this.btnVerPerfil.Text = "Ver Perfil";
             this.btnVerPerfil.UseVisualStyleBackColor = true;
@@ -233,10 +261,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(508, 785);
+            this.ClientSize = new System.Drawing.Size(510, 842);
             this.Controls.Add(this.btnVerPerfil);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -251,8 +279,10 @@
             this.Controls.Add(this.lvElementos);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnAgregar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
