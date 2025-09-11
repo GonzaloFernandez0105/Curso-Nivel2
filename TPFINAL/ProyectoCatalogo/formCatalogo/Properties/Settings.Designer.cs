@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConectandoDB.Properties
+namespace formCatalogo.Properties
 {
 
 
