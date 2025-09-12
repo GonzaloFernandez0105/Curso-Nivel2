@@ -57,14 +57,29 @@ namespace Negocio
 
         public void AgregarArticulo(Articulo nuevo)
         {
+            AccesoDatos dato = new AccesoDatos();
+            try
+            {
+                dato.SetearConsulta($"INSERT INTO ARTICULOS(Codigo, Nombre, Descripcion, Precio) VALUES ('{nuevo.Codigo}', '{nuevo.Nombre}','{nuevo.Descripcion}',{nuevo.Precio})");
+                dato.EjecutarLectura();
+            }
+            catch (Exception ex)
+            {
 
+                throw ex;
+            }
+            finally { dato.CerrarConexion(); }
         }
 
-        public void ModificarArticulo(Articulo modificar)
+       
+
+        /*public void ModificarArticulo(Articulo modificar)
         {
 
-        }
+        }*/
 
     }
 
+
 }
+

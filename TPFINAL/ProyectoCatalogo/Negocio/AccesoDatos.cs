@@ -41,13 +41,33 @@ namespace Negocio
                 throw ex;
             }
         }
+
+        public void EjecutarAccion()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+
+
         public void CerrarConexion()
         {
             if (lector != null)
                 lector.Close();
-            
-            conexion.Close();
 
+            conexion.Close();
         }
+
     }
+
 }
+

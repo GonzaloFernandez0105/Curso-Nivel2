@@ -58,5 +58,11 @@ namespace formCatalogo
             }
             
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            formInsert form = new formInsert();
+            form.ShowDialog();
+        }
     }
 }
