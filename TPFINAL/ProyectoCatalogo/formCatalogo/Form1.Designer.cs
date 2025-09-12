@@ -39,7 +39,7 @@
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvArticulos.Location = new System.Drawing.Point(12, 110);
             this.dgvArticulos.Name = "dgvArticulos";
-            this.dgvArticulos.Size = new System.Drawing.Size(554, 276);
+            this.dgvArticulos.Size = new System.Drawing.Size(601, 276);
             this.dgvArticulos.TabIndex = 0;
             this.dgvArticulos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvArticulos_CellContentClick);
             this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
@@ -49,7 +49,7 @@
             this.pbArticulo.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pbArticulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbArticulo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbArticulo.Location = new System.Drawing.Point(565, 110);
+            this.pbArticulo.Location = new System.Drawing.Point(613, 110);
             this.pbArticulo.Name = "pbArticulo";
             this.pbArticulo.Size = new System.Drawing.Size(307, 276);
             this.pbArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -61,7 +61,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(955, 450);
+            this.ClientSize = new System.Drawing.Size(1070, 450);
             this.Controls.Add(this.pbArticulo);
             this.Controls.Add(this.dgvArticulos);
             this.Name = "Form1";

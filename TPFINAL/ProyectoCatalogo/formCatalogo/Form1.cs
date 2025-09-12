@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio;
+using Negocio;
 
 namespace formCatalogo
 {
@@ -29,6 +31,7 @@ namespace formCatalogo
             ArticuloNegocio negocio = new ArticuloNegocio();
             ArtList = negocio.Listar();
             dgvArticulos.DataSource = ArtList;
+            dgvArticulos.Columns["ImagenUrl"].Visible = false;
             CargarImagen(ArtList[0].ImagenUrl);
           
             
